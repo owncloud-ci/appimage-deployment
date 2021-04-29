@@ -13,5 +13,5 @@ RUN apt update && \
 
 # install minio client
 RUN cd /usr/bin && \
-    wget https://dl.min.io/client/mc/release/linux-amd64/mc && \
+    wget -q https://dl.min.io/client/mc/release/linux-amd64/mc && \
     chmod +x mc
