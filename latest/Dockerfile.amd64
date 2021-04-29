@@ -9,7 +9,7 @@ RUN apt update && \
     rm packages-microsoft-prod.deb && \
     apt update && \
     add-apt-repository universe && \
-    apt install -y powershell p7zip-full
+    apt install -y powershell p7zip-full python3-pip
 
 # install minio client
 RUN cd /usr/bin && \
