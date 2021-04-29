@@ -7,8 +7,8 @@ RUN apt update && \
     wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb && \
     dpkg -i packages-microsoft-prod.deb && \
     rm packages-microsoft-prod.deb && \
-    apt update && \
     add-apt-repository universe && \
+    apt update && \
     apt install -y powershell p7zip-full python3-minimal python3-pip && \
     wget -q https://dl.min.io/client/mc/release/linux-amd64/mc -O /usr/bin/mc && \
     chmod +x /usr/bin/mc
