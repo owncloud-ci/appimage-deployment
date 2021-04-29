@@ -2,7 +2,6 @@
 
 [![Build Status](https://drone.owncloud.com/api/badges/owncloud-ci/appimage-deployment/status.svg)](https://drone.owncloud.com/owncloud-ci/appimage-deployment)
 
-
 This repository contains resources for deploying ownCloud client AppImages during CI builds.
 
 ## Docker image
