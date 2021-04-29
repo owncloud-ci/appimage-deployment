@@ -9,9 +9,12 @@ RUN apt update && \
     rm packages-microsoft-prod.deb && \
     apt update && \
     add-apt-repository universe && \
-    apt install -y powershell p7zip-full python3-pip
+    apt install -y powershell p7zip-full
 
 # install minio client
 RUN cd /usr/bin && \
     wget -q https://dl.min.io/client/mc/release/linux-amd64/mc && \
     chmod +x mc
+
+# install pip
+RUN apt install -y python3-minimal python3-pip
