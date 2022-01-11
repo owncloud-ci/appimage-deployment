@@ -9,6 +9,6 @@ RUN apt update && \
     rm packages-microsoft-prod.deb && \
     add-apt-repository universe && \
     apt update && \
-    apt install -y powershell p7zip-full python3-minimal python3-pip && \
+    apt install -y powershell p7zip-full python3-minimal python3-pip zsync && \
     wget -q https://dl.min.io/client/mc/release/linux-amd64/mc -O /usr/bin/mc && \
     chmod +x /usr/bin/mc
