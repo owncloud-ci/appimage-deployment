@@ -1,5 +1,5 @@
 # this base image contains all the basic tools needed, most notably wget and git
-FROM owncloud/ubuntu:bionic@sha256:06bae992cbc054523d92a3f11f6e635d2ad52c66260a0f94e352dd04a5f890d7
+FROM owncloud/ubuntu:bionic@sha256:cc4f031a54991757ba81defb432294dc23d73e3f33d1808a73547bef5d2b128d
 
 # install powershell and other tools used during the build
 RUN apt update && \
