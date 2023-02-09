@@ -9,4 +9,4 @@ RUN apt update && \
     rm packages-microsoft-prod.deb && \
     add-apt-repository universe && \
     apt update && \
-    apt install -y powershell p7zip-full python3-minimal python3-pip zsync git rclone
+    apt install -y powershell p7zip-full python3-minimal python3-pip zsync git rclone rename
