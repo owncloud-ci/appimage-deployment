@@ -1,5 +1,5 @@
 # this base image contains all the basic tools needed, most notably wget and git
-FROM owncloud/ubuntu:focal@sha256:34aa62b9c35d97f7a1676875537e62cb4892d67b0399beda9f41b35d6ea6e933
+FROM owncloud/ubuntu:focal@sha256:99c12e21110be6243e8bd0758ac49bff6325ed65642131cac21ecf6e78768961
 
 # install powershell and other tools used during the build
 RUN apt update && \
